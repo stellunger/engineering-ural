@@ -33,21 +33,21 @@
                             <div class="clearfix">
                                 <label for="name"><span>Имя</span></label>
                                 <div class="input">
-                                    <input tabindex="1" size="18" id="inputName" name="name" type="text" value="">
+                                    <input tabindex="1" size="18" id="inputName" name="inputName" type="text" value="">
                                 </div>
                             </div>
 
                             <div class="clearfix">
-                                <label for="email"><span>Телефон</span></label>
+                                <label for="phone"><span>Телефон</span></label>
                                 <div class="input">
-                                    <input tabindex="2" size="25" id="inputPhone" name="email" type="text" value="" class="input-xlarge">
+                                    <input tabindex="2" size="25" id="inputPhone" name="inputPhone" type="text" value="" class="input-xlarge">
                                 </div>
                             </div>                          
                             
                             <div class="clearfix">
                                 <label for="message"><span>Сообщение</span></label>
                                 <div class="input">
-                                    <textarea tabindex="3" class="input-xlarge" id="inputMessage" name="body" rows="7"></textarea>
+                                    <textarea tabindex="3" class="input-xlarge" id="inputMessage" name="inputMessage" rows="7"></textarea>
                                 </div>
                             </div>
                             
