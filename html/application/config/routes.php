@@ -41,9 +41,9 @@
 $route['default_controller'] = "pages";
 $route['404_override'] = '';
 
-$route['equipment/(:any)/(:any)'] = "pages/show_product/$1/$2";
-$route['equipment/(:any)'] = "pages/show_category/$1";
-$route['sendmail'] = 'sendmail';
+$route['send_email'] = 'pages/send_email';
+$route['(:any)'] = 'pages/show_page/$1';
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

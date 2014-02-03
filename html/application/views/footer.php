@@ -1,126 +1,167 @@
-
-<div id="footer">
-		
+    <footer class="b-body-footer">
 		<div class="container">
-		
-			<div class="row">
-				
-				<div class="grid-4">
-					<h2>Инжиниринг-Урал.рф</h2>
-				</div> 				
-				
-				<div class="grid-4">
-						
-					<h3><span class="slash">//</span> Свяжитесь с нами</h3>
-					
-					<h3>+7 (343) 349-53-37</h3>
-
-					<p>Вас заинтересовала наша продукция?<br />Менеджеры компании
-					будут рады ответить на ваши вопросы!</p>
-
-					<p>Также вы можете оставить заявку, и наши менеджеры сами
-					свяжутся с вами.</p>
-
-				</div>
-
-				<div class="grid-4">
-
-					<h3><span class="slash">//</span> Оставить заявку</h3>
-
-					<form action="<?php echo base_url();?>sendmail" method="post">  
-
-                        <fieldset>
-                            <div class="clearfix">
-                                <label for="name"><span>Имя</span></label>
-                                <div class="input">
-                                    <input tabindex="1" size="18" id="inputName" name="inputName" type="text" value="">
-                                </div>
-                            </div>
-
-                            <div class="clearfix">
-                                <label for="phone"><span>Телефон</span></label>
-                                <div class="input">
-                                    <input tabindex="2" size="25" id="inputPhone" name="inputPhone" type="text" value="" class="input-xlarge">
-                                </div>
-                            </div>                          
-                            
-                            <div class="clearfix">
-                                <label for="message"><span>Сообщение</span></label>
-                                <div class="input">
-                                    <textarea tabindex="3" class="input-xlarge" id="inputMessage" name="inputMessage" rows="7"></textarea>
-                                </div>
-                            </div>
-                            
-                            <div class="actions">
-                                <button tabindex="3" type="submit" class="btn btn-warning btn-large">Отправить</button>
-                            </div>
-                        </fieldset>
-
-                    </form>
-
+			<a href="#" class="b-scroll-up"></a>
+			<!-- ****** Footer menu block ****** -->
+			<div class="row b-footer-menu-container">
+			
+				<!-- Footer menu 1 -->
+				<div class="col-md-2 col-sm-2">
+					<nav class="navbar navbar-default" role="navigation">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#footer-colaps1">
+							  Проектирование
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="footer-colaps1">
+						<ul class="b-footer-menu">
+							<li>
+								<a href="<?php echo base_url(); ?>projects" class="hidden-xs">Проектирование</a>								
+							</li>
+						</ul>
+						</div>
+					</nav>
 				</div>
 				
+				<!-- Footer menu 2 -->
+				<div class="col-md-2 col-sm-2">
+					<nav class="navbar navbar-default" role="navigation">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#footer-colaps2">
+							  Оборудование
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="footer-colaps2">
+						<ul class="b-footer-menu">
+							<li>
+								<a href="<?php echo base_url(); ?>equipment" class="hidden-xs">Оборудование</a>									
+							</li>
+						</ul>
+						</div>
+					</nav>
+				</div>
+				
+				<!-- Footer menu 3 -->
+				<div class="col-md-2 col-sm-2">
+					<nav class="navbar navbar-default" role="navigation">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#footer-colaps3">
+							  Монтаж
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="footer-colaps3">
+						<ul class="b-footer-menu">
+							<li>
+								<a href="<?php echo base_url(); ?>montage" class="hidden-xs">Монтаж</a>								
+							</li>
+						</ul>
+						</div>
+					</nav>
+				</div>
+				
+				<!-- Footer menu 4 -->
+				<div class="col-md-2 col-sm-2">
+					<nav class="navbar navbar-default" role="navigation">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#footer-colaps4">
+							  Сервис
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="footer-colaps4">
+						<ul class="b-footer-menu">
+							<li>
+								<a href="<?php echo base_url(); ?>service" class="hidden-xs">Сервис</a>								
+							</li>
+						</ul>
+						</div>
+					</nav>
+				</div>
+				
+				<!-- Footer menu 5 -->
+				<div class="col-md-2 col-sm-2">
+					<nav class="navbar navbar-default" role="navigation">
+						<ul class="b-footer-menu">
+							<li>
+								<a href="<?php echo base_url(); ?>about">О компании</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				
+				<!-- Footer menu 6 -->
+				<div class="col-md-2 col-sm-2">
+					<nav class="navbar navbar-default" role="navigation">
+						<ul class="b-footer-menu">
+							<li>
+								<a href="<?php echo base_url(); ?>contacts">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
 			</div>
-			
-		</div>
-		
-	</div>	
-	
-	<div id="copyright">
-		
-		<div class="container">
-			
-			<div class="row">
-			
-				<div id="rights" class="grid-4">
-				© 2013 Инжиниринг-Урал.рф
+			<!-- ****** Footer menu block ****** -->
+			<div class="row b-footer-coperate">
+				<div class="col-md-9 col-sm-6">
+					<div class="b-coperate"><p>© 2014 Инжиниринг-урал.рф<br>Все права защищены</p></div>
 				</div>
-				
-				<div id="totop" class="grid-8">
-					Разработка и продвижение сайта - <a href="http://stellunger.ru">Бюро интернет маркетинга "Штеллунгер"</a>
-				</div> <!-- /grid-6 -->
-				
-			</div> <!-- /row -->
-			
-		</div> <!-- /container -->
-			
-	</div> <!-- /copyright -->
+				<div class="col-md-3 col-sm-3">
+					<div class="b-city">
+						г. Екатеринбург,
+						<div class="b-tel-footer">+7 (343) 385-12-83</div>
+					</div>
+				</div>
+				<!--<div class="col-md-2 col-sm-3">
+					<div class="b-city">
+						г. Тюмень,
+						<div class="b-tel-footer">+7 (343) 385-12-83</div>
+					</div>
+				</div>-->
+			</div>
+		</div>
+	</footer>
 	
-</div> <!-- /wrapper -->
-
-<!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="<?php echo base_url(); ?>js/jquery-1.9.1.min.js"></script>
-
-<script src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
-<script src="<?php echo base_url(); ?>js/focus.js"></script>
-
-<script>
-
-$(function () {
+	<!-- Modal -->
+	<div class="modal fade" id="order-call" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-body">
+		  	<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<h2>Заказать звонок</h2>
+			<form action="">
+				<div class="row">
+					<div class="col-md-12">
+						<input type="text" class="form-control b-form-item" placeholder="Имя и Фамилия">
+					</div>
+					<div class="col-md-12">
+						<input type="text" class="form-control b-form-item" placeholder="Инжиниринг нашей компании">
+					</div>
+					<div class="col-md-12">
+						<input type="text" class="form-control b-form-item" placeholder="Контактный телефон">
+					</div>
+					<div class="col-md-12">
+						<input type="text" class="form-control b-form-item" placeholder="Адрес электронной почты">
+					</div>
+					<div class="col-md-12">
+						<textarea class="form-control b-form-item" placeholder="Примичание"></textarea>
+					</div>
+				</div>
+				<div class="b-button">
+					<button type="submit" class="btn btn-default">Отправить заявку</button>
+				</div>
+			</form>
+		  </div>
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
 	
-	$('#masthead-carousel').carousel ({ interval: false });
 	
-});
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.fancybox.pack.js"></script>
+	<script src="js/script.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
-</script>
-
-<!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter22364239 = new Ya.Metrika({id:22364239, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/22364239" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-44121958-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-</body>
+    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+    <script src="js/respond.js"></script>
+  </body>
 </html>
